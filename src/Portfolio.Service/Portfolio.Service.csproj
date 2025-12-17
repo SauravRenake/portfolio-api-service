@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Portfolio.Interface\Portfolio.Interface.csproj" />
+    <ProjectReference Include="..\Portfolio.Model\Portfolio.Model.csproj" />
+    <ProjectReference Include="..\Portfolio.Data\Portfolio.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
